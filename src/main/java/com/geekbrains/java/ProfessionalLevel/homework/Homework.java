@@ -7,9 +7,8 @@ import java.util.List;
 
 public class Homework {
     public static void main(String[] args) {
-//        System.out.println(isOneAndFour(1, 2,  1,2,3,4,5,2,3,4,1,3,5,1,2,1,1,1,1,2,1,2,1,21,3,5,0));
-//        System.out.println(isOneAndFour(1, 2,  1,2,1,1,2,1,1,1,1,2,1,2,1,1,2,1,2,1,2,2,2,1,1,1,2,2,1));
     }
+
     public Integer[] getSubArray(int checkNumber, Integer... array){
         List<Integer> arrayList = new ArrayList<>(Arrays.asList(array));
         int lastIndex = arrayList.lastIndexOf(checkNumber);
